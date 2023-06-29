@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar-link {
+    position: relative;
+  }
+  
+  .navbar-link-hover {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4169E1;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .navbar-link:hover .navbar-link-hover {
+    transform: scaleX(1);
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .text-br-dark {
+    animation: fade-in 0.3s ease-in-out;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .smooth-scroll {
+    cursor: pointer;
+  }
+  
+  .smooth-scroll::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: bottom;
+  }
+  
+  .smooth-scroll:hover::after,
+  .smooth-scroll:focus::after {
+    transform: scaleX(1);
+  }
+  
+  .smooth-scroll:focus {
+    outline: none;
+  }
+
+  .text-with-shadow {
+    display: inline-block;
+    text-shadow: 0 0 75px rgb(65,105,240);
+    animation: shadow-animation 2s infinite alternate;
+  }
+  
+  @keyframes shadow-animation {
+    0% {
+      text-shadow: 0 0 40px rgba(65, 105, 240, 0.5);
+    }
+    100% {
+      text-shadow: 0 0 75px rgba(65, 105, 240, 0.8);
+    }
+  }
+
+  .shadow-white {
+    box-shadow: 0 0 65px 5px rgba(255, 255, 255, 0.2);
+  }
+
+
+  .shadow-blue {
+    box-shadow: 0 0 65px 1px rgba(65, 105, 240, 0.5);
+  }
+  
+  .bg-waves {
+    background-image: url('../public/bottomwaves.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  
+
+  
+  
+
+  
