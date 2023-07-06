@@ -51,7 +51,7 @@ const Header = () => {
 
           <div className="flex justify-center mt-4">
             <Button1 href="/contact" text="Contactez-nous" />
-            <Button2 href="/projet" text="Voir les projets" />
+            <Button2 href="/project" text="Voir les projets" />
           </div>
         </div>
       </div>
@@ -61,9 +61,9 @@ const Header = () => {
 
 
       <div className="z-0">
-        <Image src={Waves} alt="Logo" className="w-full" />
-
+        <Image src={Waves} alt="Logo" className="w-full h-full" />
       </div>
+
 
       <a href="#langage" className="font-alata absolute bottom-7 left-0 w-full text-white text-center py-4 flex items-center justify-center group">
         <Image src={Arrow} alt="arrow" className="text-white w-6 h-6 transition-transform duration-300 transform group-hover:scale-110" />

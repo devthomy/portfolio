@@ -5,6 +5,7 @@ import cIcon from "public/language-icon/csharp.png";
 import reactIcon from "public/language-icon/raect.png";
 import tailwindcssIcon from "public/language-icon/tailwindcss.png";
 
+
 const About = () => {
   const advantageOptions = [
     {
@@ -22,24 +23,24 @@ const About = () => {
   ];
 
   return (
-    <div id="langage">
-       <div className="flex font-alata text-4xl text-white font-bold mb-4 justify-center relative">
-        Mes langagues de prédilection
-       </div>
+    <div id="langage" className="bg-primary-dark w-full min-h-screen p-24">
+      <div className="flex font-alata text-4xl text-white font-bold mb-4 justify-center relative">
+        Mes langues de prédilection
+      </div>
       <div className="flex justify-center p-10">
         {advantageOptions.map((option, index) => (
           <div
             key={index}
             className="bg-white flex min-w-[250px] max-w-[330px] h-380 shadow-lg rounded-2xl m-5 flex-col justify-center items-center p-6 transition-colors duration-300 hover:bg-primary-grey"
             style={{
-              boxShadow: "inset 0 0 50px rgba(255, 255, 255, 0.3), 0 0 50px rgba(255, 255, 255, 0.3)",
+              boxShadow:
+                "inset 0 0 50px rgba(255, 255, 255, 0.3), 0 0 50px rgba(255, 255, 255, 0.3)",
               outline: "2px solid rgba(255, 255, 255, 0.2)",
             }}
           >
             <div className="w-12 h-12 rounded-full mb- flex justify-center items-center">
               {option.icon}
             </div>
-          
           </div>
         ))}
       </div>

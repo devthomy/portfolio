@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import twitter from "public/twitter.png";
-import github from "public/github.png";
+import twitter from "public/media/twitter.png";
+import github from "public/media/github.png";
+import discord from "public/media/discord.png";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
               <li className="flex flex-col items-center text-br-primary">
                 <p className="font-alata font-semibold">Me suivre</p>
                 <div className="flex space-x-2 p-2 justify-center">
-                  <Link className="hover:opacity-80" href="https://github.com/erozzzz">
+                  <Link className="hover:opacity-80" href="https://github.com/erozzzz" target="_blank">
                     <Image
                       src={github}
                       alt={"GitHub logo"}
@@ -26,10 +27,19 @@ const Footer = () => {
                       className="transition-transform duration-300 transform hover:scale-110"
                     />
                   </Link>
-                  <Link className="hover:opacity-80" href="https://twitter.com/__eroz">
+                  <Link className="hover:opacity-80" href="https://twitter.com/__eroz" target="_blank">
                     <Image
                       src={twitter}
                       alt={"Twitter logo"}
+                      width={24}
+                      height={24}
+                      className="transition-transform duration-300 transform hover:scale-110"
+                    />
+                  </Link>
+                  <Link className="hover:opacity-80" href="https://discord.gg/UUbnFbu2hn" target="_blank">
+                    <Image
+                      src={discord}
+                      alt={"Discord logo"}
                       width={24}
                       height={24}
                       className="transition-transform duration-300 transform hover:scale-110"
