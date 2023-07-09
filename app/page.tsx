@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "~/src/components/header";
-import HeaderTop from "~/src/components/header-top";
 import About from "~/src/components/about";
 
 
