@@ -9,9 +9,10 @@ const Project = () => {
     {
       title: "Ressel Alcool",
       description:
-        "Création de différents moniteurs, qui avec des filtres précis indique si de nouveaux produits sont disponible.",
+        "Création de différents moniteurs, qui avec des filtres précis indiquent si de nouveaux produits sont disponibles.",
       image: ResselAlcool,
       buttonHref: "https://discord.gg/6QnaX2vK5P",
+      openNewTab: true, // Ajoutez cette propriété pour indiquer si le lien doit s'ouvrir dans un nouvel onglet
     },
     {
       title: "BTS SIO",
@@ -19,19 +20,7 @@ const Project = () => {
         "Retrouvez tous les projets que j'ai réalisés pendant mes deux années d'études en BTS SIO au sein du Lycée Mathias",
       image: Mathias,
       buttonHref: "#btssio",
-    }, {
-      title: "Ressel Alcool",
-      description:
-        "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
-      image: ResselAlcool,
-      buttonHref: "https://discord.gg/UUbnFbu2hn",
-    },
-    {
-      title: "Ressel Alcool",
-      description:
-        "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
-      image: ResselAlcool,
-      buttonHref: "https://discord.gg/UUbnFbu2hn",
+      openNewTab: false, // Ajoutez cette propriété pour indiquer si le lien doit s'ouvrir dans un nouvel onglet
     },
     // Ajoutez ici les autres objets advantageOptions que vous souhaitez afficher
   ];
@@ -45,8 +34,7 @@ const Project = () => {
             className="bg-primary-dark flex max-h-[475px] max-w-[800px] h-auto shadow-lg rounded-2xl m-5 flex-col marker:items-center p-6 transition-all duration-500"
             style={{
               boxShadow:
-                `inset 0 0 50px rgba(0, 132, 255, 0.3),
-                0 0 50px rgba(0, 132, 255, 0.3)`,
+                "inset 0 0 50px rgba(0, 132, 255, 0.3), 0 0 50px rgba(0, 132, 255, 0.3)",
               outline: "2px solid rgba(65, 105, 225, 1)",
             }}
           >
@@ -62,7 +50,11 @@ const Project = () => {
             <h2 className="flex font-alata text-4xl text-white font-bold mb-4 justify-left relative transition-all duration-500">{option.title}</h2>
             <p className="text-gray-400 pb-6 transition-all duration-500">{option.description}</p>
             <div className="flex justify-end transition-all duration-500">
-              <Button1 href={option.buttonHref} text="Voir plus" />
+              <Button1
+                href={option.buttonHref}
+                text="Voir plus"
+                target={option.openNewTab ? "_blank" : ""} // Conditionnellement définir l'attribut target
+              />
             </div>
           </div>
         ))}

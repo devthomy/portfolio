@@ -109,7 +109,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/project/page:app/project/page"
         ],
         "async": false
       },
@@ -117,7 +117,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/project/page:app/project/page"
         ],
         "async": false
       },
@@ -125,7 +125,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/project/page:app/project/page"
         ],
         "async": false
       }
@@ -389,6 +389,58 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./public/banner/alcool_banner.png": {
+      "": {
+        "id": "(sc_client)/./public/banner/alcool_banner.png",
+        "name": "",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/banner/alcool_banner.png",
+        "name": "*",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/banner/alcool_banner.png",
+        "name": "default",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./public/banner/mathias_banner.jpg": {
+      "": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "*",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "default",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -506,7 +558,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     },
@@ -514,7 +566,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     },
@@ -522,7 +574,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     }
@@ -532,7 +584,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     },
@@ -540,7 +592,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     },
@@ -548,7 +600,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/project/page:app/project/page"
       ],
       "async": false
     }
@@ -939,6 +991,58 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app-client-internals:app-client-internals"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/banner/alcool_banner.png": {
+    "": {
+      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "name": "",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "name": "*",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "name": "default",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/banner/mathias_banner.jpg": {
+    "": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "name": "",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "name": "*",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "name": "default",
+      "chunks": [
+        "app/project/page:app/project/page"
       ],
       "async": false
     }
