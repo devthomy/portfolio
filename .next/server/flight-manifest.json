@@ -415,6 +415,32 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./public/banner/mathias_banner.jpg": {
+      "": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "*",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
+        "name": "default",
+        "chunks": [
+          "app/project/page:app/project/page"
+        ],
+        "async": false
+      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -988,6 +1014,32 @@
     },
     "default": {
       "id": "(app-client)/./public/banner/alcool_banner.png",
+      "name": "default",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/banner/mathias_banner.jpg": {
+    "": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "name": "",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "name": "*",
+      "chunks": [
+        "app/project/page:app/project/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/banner/mathias_banner.jpg",
       "name": "default",
       "chunks": [
         "app/project/page:app/project/page"

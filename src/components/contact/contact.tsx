@@ -1,56 +1,72 @@
 import Image from "next/image";
 import React from "react";
-import goIcon from "public/language-icon/go.png";
-import cIcon from "public/language-icon/csharp.png";
-import reactIcon from "public/language-icon/raect.png";
-import tailwindcssIcon from "public/language-icon/tailwindcss.png";
-import Waves from "public/bottomwaves.svg"
+import Button1 from "src/button/button1";
 
 const Contact = () => {
-  const advantageOptions = [
-    {
-      icon: <Image src={goIcon} alt="Image" width={110} height={30} />,
-    },
-    {
-      icon: <Image src={reactIcon} alt="Image" width={110} height={30} />,
-    },
-    {
-      icon: <Image src={tailwindcssIcon} alt="Image" width={110} height={30} />,
-    },
-    {
-      icon: <Image src={cIcon} alt="Image" width={110} height={30} />,
-    },
-  ];
-
   return (
-    <div id="project" className="relative bg-primary-dark p-7 w-full">
+    <div
+      id="contact"
+      className="bg-primary-grey p-24 flex justify-center items-center"
+    >
       
-       <div className="flex font-alata text-4xl text-white font-bold mb-4 justify-center relative">
-        Mes projets
-       </div>
-      <div className="flex justify-center p-10">
-        {advantageOptions.map((option, index) => (
-          <div
-            key={index}
-            className="bg-white flex min-w-[250px] max-w-[330px] h-380 shadow-lg rounded-2xl m-5 flex-col justify-center items-center p-6 transition-colors duration-300 hover:bg-primary-grey"
-            style={{
-              boxShadow: "inset 0 0 50px rgba(255, 255, 255, 0.3), 0 0 50px rgba(255, 255, 255, 0.3)",
-              outline: "2px solid rgba(255, 255, 255, 0.2)",
-            }}
-          >
-            <div className="w-12 h-12 rounded-full mb- flex justify-center items-center">
-              {option.icon}
-            </div>
-          
-          </div>
-        ))}
         
-      </div>
-      <div className="z-0">
-        <Image src={Waves} alt="Logo" className="w-full" />
+        <div className="container p-6 bg-primary-dark mx-auto text-white flex justify-center rounded-lgshadow-lg rounded-lg transition-all  duration-500 "
+        style={{
+          boxShadow:
+            "inset 0 0 50px rgba(0, 132, 255, 0.3), 0 0 50px rgba(0, 132, 255, 0.3)",
+          outline: "2px solid rgba(65, 105, 225, 1)",
+        }}
+      >
+          <div className="w-1/2">
+            <h2 className="text-3xl font-alata font-bold mb-4">
+              Contactez-moi
+            </h2>
+            <p className="mb-6 font-alata">
+              N'hésitez pas à me contacter pour concrétiser votre projet !
+              Ensemble, nous pouvons créer quelque chose d'exceptionnel et
+              donner vie à vos idées. Je suis prêt à mettre mes compétences et
+              mon expertise à votre service. Faisons équipe et accomplissons
+              des résultats remarquables.
+            </p>
 
+            <form className="mb-6">
+              <div className="mb-4">
+                <label htmlFor="name" className="block mb-2 font-alata">
+                  Nom
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  className="w-full px-3 py-2 border text-primary-dark rounded-lg mt-1 font-alata"
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="email" className="block mb-2 font-alata">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  className="w-full px-3 py-2 border text-primary-dark rounded-lg mt-1 font-alata"
+                />
+              </div>
+              <div className="mb-4">
+                <label htmlFor="message" className="block mb-2 font-alata">
+                  Message
+                </label>
+                <textarea
+                  id="message"
+                  className="w-full px-3 py-2 border text-primary-dark rounded-lg mt-1 font-alata"
+                ></textarea>
+              </div>
+              <div className="flex justify-end transition-all duration-500">
+                <Button1 href="/" text="Envoyez" />
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
+
   );
 };
 

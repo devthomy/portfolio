@@ -4,7 +4,7 @@ import Logo from "public/logo.png";
 
 const Navbar = () => {
   return (
-    <footer className="bg-primary-dark py-16 text-white z-10 relative">
+    <footer className="bg-primary-dark py-11 text-white z-10 relative">
       <div className="absolute left-24 top-3 ml-8 mt-8">
         <a href="/">
           <Image

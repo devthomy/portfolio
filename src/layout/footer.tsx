@@ -56,13 +56,13 @@ const Footer = () => {
                 <p className="font-alata font-semibold">À propos</p>
                 <Link
                   className="text-br-dark text-base hover:text-br-primary mt-1 transition-transform duration-300 transform hover:scale-105"
-                  href="/solutions"
+                  href="/"
                 >
                   Politique de confidentialité
                 </Link>
                 <Link
                   className="text-br-dark text-base hover:text-br-primary mt-1 transition-transform duration-300 transform hover:scale-105"
-                  href="/blog"
+                  href="/"
                 >
                   Conditions générales
                 </Link>

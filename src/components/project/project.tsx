@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ResselAlcool from "public/banner/alcool_banner.png";
+import Mathias from "public/banner/mathias_banner.jpg";
 import Button1 from "src/button/button1";
 
 const Project = () => {
@@ -8,25 +9,29 @@ const Project = () => {
     {
       title: "Ressel Alcool",
       description:
+        "Création de différents moniteurs, qui avec des filtres précis indique si de nouveaux produits sont disponible.",
+      image: ResselAlcool,
+      buttonHref: "https://discord.gg/6QnaX2vK5P",
+    },
+    {
+      title: "BTS SIO",
+      description:
+        "Retrouvez tous les projets que j'ai réalisés pendant mes deux années d'études en BTS SIO au sein du Lycée Mathias",
+      image: Mathias,
+      buttonHref: "#btssio",
+    }, {
+      title: "Ressel Alcool",
+      description:
         "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
       image: ResselAlcool,
+      buttonHref: "https://discord.gg/UUbnFbu2hn",
     },
     {
       title: "Ressel Alcool",
       description:
         "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
       image: ResselAlcool,
-    },{
-      title: "Ressel Alcool",
-      description:
-        "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
-      image: ResselAlcool,
-    },
-    {
-      title: "Ressel Alcool",
-      description:
-        "Création d'un moniteur personnalisable permettant de filtrer les prix et les marques, afin de récupérer les derniers produits mis en vente sur différentes plateformes de vente.",
-      image: ResselAlcool,
+      buttonHref: "https://discord.gg/UUbnFbu2hn",
     },
     // Ajoutez ici les autres objets advantageOptions que vous souhaitez afficher
   ];
@@ -57,7 +62,7 @@ const Project = () => {
             <h2 className="flex font-alata text-4xl text-white font-bold mb-4 justify-left relative transition-all duration-500">{option.title}</h2>
             <p className="text-gray-400 pb-6 transition-all duration-500">{option.description}</p>
             <div className="flex justify-end transition-all duration-500">
-              <Button1 href="https://discord.gg/UUbnFbu2hn" text="Voir plus" />
+              <Button1 href={option.buttonHref} text="Voir plus" />
             </div>
           </div>
         ))}
