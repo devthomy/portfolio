@@ -50,7 +50,7 @@ const Header = () => {
           </div>
 
           <div className="flex justify-center mt-4">
-            <Button1 href="/contact" text="Contactez-nous" />
+            <Button1 href="/contact" text="Contactez-moi" />
             <Button2 href="/project" text="Voir les projets" />
           </div>
         </div>
