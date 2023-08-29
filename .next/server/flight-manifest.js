@@ -31,7 +31,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/discord.png",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -39,7 +39,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/discord.png",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -47,7 +47,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/discord.png",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       }
@@ -57,7 +57,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/github.png",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -65,7 +65,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/github.png",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -73,7 +73,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/github.png",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       }
@@ -83,7 +83,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/twitter.png",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -91,7 +91,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/twitter.png",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -99,7 +99,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./public/media/twitter.png",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       }
@@ -109,7 +109,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/project/page:app/project/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -117,7 +117,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/project/page:app/project/page"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -125,7 +125,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/project/page:app/project/page"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -135,7 +135,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -143,7 +143,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       },
@@ -151,7 +151,111 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/contact/page:app/contact/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "*",
+        "chunks": [
+          "app-client-internals:app-client-internals"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
+        "name": "default",
+        "chunks": [
+          "app-client-internals:app-client-internals"
         ],
         "async": false
       }
@@ -285,162 +389,6 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
-    },
-    "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
-        "name": "",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
-        "name": "*",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
-        "name": "default",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/components/error-boundary.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
-        "name": "",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
-        "name": "*",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/error-boundary.js",
-        "name": "default",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/components/layout-router.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
-        "name": "",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
-        "name": "*",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/layout-router.js",
-        "name": "default",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-        "name": "",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-        "name": "*",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/components/render-from-template-context.js",
-        "name": "default",
-        "chunks": [
-          "app-client-internals:app-client-internals"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/banner/alcool_banner.png": {
-      "": {
-        "id": "(sc_client)/./public/banner/alcool_banner.png",
-        "name": "",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/banner/alcool_banner.png",
-        "name": "*",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/banner/alcool_banner.png",
-        "name": "default",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./public/banner/mathias_banner.jpg": {
-      "": {
-        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
-        "name": "",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
-        "name": "*",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./public/banner/mathias_banner.jpg",
-        "name": "default",
-        "chunks": [
-          "app/project/page:app/project/page"
-        ],
-        "async": false
-      }
     }
   },
   "__edge_ssr_module_mapping__": {},
@@ -480,7 +428,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/discord.png",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -488,7 +436,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/discord.png",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -496,7 +444,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/discord.png",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -506,7 +454,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/github.png",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -514,7 +462,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/github.png",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -522,7 +470,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/github.png",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -532,7 +480,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/twitter.png",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -540,7 +488,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/twitter.png",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -548,7 +496,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./public/media/twitter.png",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -558,7 +506,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -566,7 +514,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -574,7 +522,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -584,7 +532,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -592,7 +540,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -600,7 +548,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -610,7 +558,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -618,7 +566,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -626,7 +574,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -636,7 +584,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -644,7 +592,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -652,137 +600,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/csharp.png": {
-    "": {
-      "id": "(app-client)/./public/language-icon/csharp.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/language-icon/csharp.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/language-icon/csharp.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/go.png": {
-    "": {
-      "id": "(app-client)/./public/language-icon/go.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/language-icon/go.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/language-icon/go.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/raect.png": {
-    "": {
-      "id": "(app-client)/./public/language-icon/raect.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/language-icon/raect.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/language-icon/raect.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/tailwindcss.png": {
-    "": {
-      "id": "(app-client)/./public/language-icon/tailwindcss.png",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./public/language-icon/tailwindcss.png",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./public/language-icon/tailwindcss.png",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
-  "/Users/thomasbail/Documents/GitHub/portfolio/src/components/header.tsx": {
-    "": {
-      "id": "(app-client)/./src/components/header.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./src/components/header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./src/components/header.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:app/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -995,54 +813,132 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/banner/alcool_banner.png": {
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/csharp.png": {
     "": {
-      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "id": "(app-client)/./public/language-icon/csharp.png",
       "name": "",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "id": "(app-client)/./public/language-icon/csharp.png",
       "name": "*",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/banner/alcool_banner.png",
+      "id": "(app-client)/./public/language-icon/csharp.png",
       "name": "default",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     }
   },
-  "/Users/thomasbail/Documents/GitHub/portfolio/public/banner/mathias_banner.jpg": {
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/go.png": {
     "": {
-      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "id": "(app-client)/./public/language-icon/go.png",
       "name": "",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "id": "(app-client)/./public/language-icon/go.png",
       "name": "*",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./public/banner/mathias_banner.jpg",
+      "id": "(app-client)/./public/language-icon/go.png",
       "name": "default",
       "chunks": [
-        "app/project/page:app/project/page"
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/raect.png": {
+    "": {
+      "id": "(app-client)/./public/language-icon/raect.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/language-icon/raect.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/language-icon/raect.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/public/language-icon/tailwindcss.png": {
+    "": {
+      "id": "(app-client)/./public/language-icon/tailwindcss.png",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./public/language-icon/tailwindcss.png",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./public/language-icon/tailwindcss.png",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    }
+  },
+  "/Users/thomasbail/Documents/GitHub/portfolio/src/components/header.tsx": {
+    "": {
+      "id": "(app-client)/./src/components/header.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./src/components/header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:app/page"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./src/components/header.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:app/page"
       ],
       "async": false
     }

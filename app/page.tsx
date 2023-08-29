@@ -8,7 +8,6 @@ export default function Home() {
     <div className="bg-primary-grey">
       <div >
         <Header />
-
         <About />
       </div>
     </div>
